@@ -7,5 +7,4 @@ CREATE TABLE Student (
     Gender VARCHAR2(10) CHECK (Gender IN ('Male', 'Female', 'Other')),
     DepartmentID NUMBER(5) NOT NULL
 );
-
 SELECT*FROM KAVI_DB; 
